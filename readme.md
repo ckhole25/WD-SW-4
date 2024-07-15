@@ -4,23 +4,23 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/ckhole25">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="" alt="" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Seatwork 4</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  This activity consists of 3 pages, 1 including a landing page and 2 feature pages of different subjects
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=https://github.dev/ckhole25/WD-SW-4)
 
 ---
 
@@ -60,10 +60,14 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
+- The project is all about creating and deploying a website consisting of 3 pages, 1 landing page and 2 feature display pages with different styles. By doing this it will enhance our creativity and skills in deveoping websites
+- The purpose was to create 3 pages including 1 landing page and 2 feature display pages
+- landing page
+- Feature 1 display
+- Feature 2 display
 - What technology used and how it is used
+- HTML
+- CSS
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -117,4 +121,10 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Riot games | I used their website for the concept of my first feature page | riot.com |
+| Nke | their website also gave me an idea how to style my second feature page | nike.com |
+| Pinterest Wallpapers | Got all my images and background wallpapers from pinteres | Pinterest.com |
+| Youtube tutorials | youtube vidoes helped me figure out some coding problems | Youtube.com |
+| Google | where i got some of my style animation effects | Google.com |
+| Github | where i got the template that i used for uploading this repository | https://github.com/zyx-0314/WD-Template-Project |
+| Wakatime | my integrated time on wakatime | https://wakatime.com/dashboard |
