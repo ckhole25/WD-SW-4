@@ -128,3 +128,4 @@ WD-ProjectName
 | Google | where i got some of my style animation effects | Google.com |
 | Github | where i got the template that i used for uploading this repository | https://github.com/zyx-0314/WD-Template-Project |
 | Wakatime | my integrated time on wakatime | https://wakatime.com/dashboard |
+| League of Legends website | where i also got my concept for the feature page | League of Legends.com |
