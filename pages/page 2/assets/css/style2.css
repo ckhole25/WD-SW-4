@@ -1,0 +1,239 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header .logo img {
+    height: 40px;
+}
+
+.header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header nav ul li {
+    margin-right: 20px;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+.header nav ul li a:hover {
+    background-color: #ddd;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+.featured {
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.5); /* Add transparent container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.featured:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.featured h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.featured .shoes img {
+    height: 200px;
+    margin: 0 10px;
+}
+
+.shop-by-sport, .discover-icons {
+    margin-bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.5); /* Add transparent container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.shop-by-sport:hover, .discover-icons:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.shop-by-sport h2, .discover-icons h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.shop-by-sport .sports, .discover-icons .icons {
+    display: flex;
+    justify-content: center;
+}
+
+.shop-by-sport .sport, .discover-icons .icon {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.shop-by-sport .sport img, .discover-icons .icon img {
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.shop-by-sport .sport p, .discover-icons .icon p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.features {
+    margin-bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.5); /* Add transparent container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.features:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.features h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.feature {
+    text-align: center;
+    margin: 20px;
+    width: 250px;
+}
+
+.feature img {
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.feature h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.footer {
+    background-color: #fff;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    color: #555;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .header .container {
+        flex-direction:        column;
+    }
+
+    .header nav ul {
+        flex-direction: column;
+    }
+
+    .header nav ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .featured .shoes {
+        flex-direction: column;
+    }
+
+    .featured .shoes img {
+        height: auto;
+        width: 100%;
+    }
+
+    .shop-by-sport .sports, .discover-icons .icons {
+        flex-direction: column;
+    }
+
+    .shop-by-sport .sport, .discover-icons .icon {
+        margin: 20px 0;
+    }
+
+    .feature-list {
+        flex-direction: column;
+    }
+
+    .feature {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 10px;
+    }
+
+    .header nav ul li a {
+        padding: 5px 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .featured, .shop-by-sport, .discover-icons, .features {
+        padding: 10px;
+    }
+
+    .feature {
+        margin: 10px 0;
+    }
+}

@@ -1,0 +1,200 @@
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url('../img/BACKGROUND.gif'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #fff;
+    padding: 10px 0;
+}
+
+.header .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header nav ul li {
+    background-color: transparent;
+    margin: 0 10px;
+    border-radius: 5px; 
+    overflow: hidden;
+}
+
+/* Style the links */
+.header nav ul li a {
+    color: white; /* Dark text color for contrast */
+    padding: 10px 20px; /* Add padding to the links */
+    font-weight: bold;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Add hover effect to the links */
+.header nav ul li a:hover {
+    background-color: black; /* Darker background on hover */
+    color: #fff; /* White text on hover */
+}
+
+/* Style the main section */
+main {
+    padding: 5px;
+    flex: 1; /* Ensure main takes up available space */
+    color: rgb(255, 246, 246); /* Example text color */
+    font-size: x-large;
+}
+main h1 {
+    align-content: center;
+    margin-top: 30px;
+    padding: 10px;
+    flex: 1;
+    color: rgb(255, 254, 254);
+}
+main h2{
+    align-content: center;
+    margin-top: 100px;
+    padding: 50px;
+    flex: 1;
+    color: rgb(255, 254, 254);
+}
+main p {
+    margin-top: 10px;
+    flex: 1;
+    color: rgb(255, 255, 255);
+}
+
+/* Style the footer */
+.footer {
+    background-color: transparent; /* Dark background for the footer */
+    color: #f8f5f5;
+    padding: 20px 0;
+}
+
+.footer .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center; /* Center the footer list */
+}
+
+.footer ul li {
+    margin: 0 10px;
+}
+
+.footer ul li a {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+    color: #ccc; /* Lighten text on hover */
+}
+
+/* Styles for navigation buttons within .nav-buttons */
+.nav-buttons {
+    justify-content: center;
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.nav-buttons a {
+    border: white 1px solid;
+    border-radius: 20px;
+    padding: 0.6rem 1.5rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    background: linear-gradient(
+        100deg,
+        #3b1c57 0%, /* Darker color start */
+        #2a143b 100% /* Darker color end */
+    );
+    background: -moz-linear-gradient(
+        100deg,
+        #3b1c57 0%,
+        #2a143b 100%
+    );
+    background: -webkit-linear-gradient(
+        100deg,
+        #3b1c57 0%,
+        #2a143b 100%
+    );
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#3b1c57", endColorstr="#2a143b", GradientType=1 );
+}
+
+.nav-buttons a:hover {
+    transform: scale(1.05); /* Scale up slightly on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+.nav-buttons .upper {
+    background: linear-gradient(
+        100deg,
+        #3b1c57 0%, /* Darker color start */
+        #2a143b 100% /* Darker color end */
+    );
+    background: -moz-linear-gradient(
+        100deg,
+        #3b1c57 0%,
+        #2a143b 100%
+    );
+    background: -webkit-linear-gradient(
+        100deg,
+        #3b1c57 0%,
+        #2a143b 100%
+    );
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#3b1c57", endColorstr="#2a143b", GradientType=1 );
+}
+
+.nav-buttons .down {
+    background: linear-gradient(
+        100deg,
+        #3b1c57 0%, /* Darker color start */
+        #2a143b 100% /* Darker color end */
+    );
+    background: -moz-linear-gradient(
+        100deg,
+        #3b1c57 0%,
+        #2a143b 100%
+    );
+    background: -webkit-linear-gradient(
+        100deg,
+        #3b1c57 0%,
+        #2a143b 100%
+    );
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#3b1c57", endColorstr="#2a143b", GradientType=1 );
+}
+
